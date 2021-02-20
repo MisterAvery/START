@@ -4,6 +4,7 @@ A library for doing mundane JavaScript tasks when working with HTML Canvas. This
 ## Status: in progress(Do not use)
 
 ## Currentley has Functions for:
+ - Initalizing a canvas and a context for it 
  - Retectangle to rectalgle collision
  - Line to line collision
  - Circle to circle collision
