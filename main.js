@@ -44,3 +44,4 @@ const START = {
 };
 
 Object.freeze(START);
+export default START;
