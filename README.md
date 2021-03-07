@@ -5,7 +5,7 @@ A library for doing mundane JavaScript tasks when working with HTML Canvas. This
 - Can be delivered from https://cdn.jsdelivr.net/gh/MisterAvery/START@v1.0/main.js
 
 ## Can be used with this HTML boiler-plate
-```
+```diff
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,14 +16,14 @@ A library for doing mundane JavaScript tasks when working with HTML Canvas. This
   </head>
   <body>
     <script type="module">
-      import START from 'https://cdn.jsdelivr.net/gh/MisterAvery/START@v1.0/main.js';
+    ! import START from 'https://cdn.jsdelivr.net/gh/MisterAvery/START@v1.0/main.js';
       START.init(500, 500);
 
-      let params = {
-        fill: '#7fb8',
-        stroke: '#444',
-        strokeWidth: 2
-      }
+    ! let params = {
+    !   fill: '#7fb8',
+    !   stroke: '#444',
+    !   strokeWidth: 2
+    ! }
 
       let c = START.shapes.circ(100, 95, 20, params),
           l = START.shapes.line(175, 200, 20, 50, params);
@@ -44,6 +44,10 @@ A library for doing mundane JavaScript tasks when working with HTML Canvas. This
       strokeWidth: 2
     })
     ```
+- functions that create shapes also return information about that shape
+  - Example 1: The circ method will return the x, y, and radius of the object in their respective order
+  - Example 2: The line method will return the x1, y1, x2, y2, and length of the line in their respective order
+  - Example 3: The rect method will return the x, y, w, and h of the rectangle in their respective order
 
 ## Currentley has Functions for:
  - Initalizing a canvas and a context for it 
