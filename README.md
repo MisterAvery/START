@@ -16,7 +16,7 @@ A library for doing mundane JavaScript tasks when working with HTML Canvas. This
   </head>
   <body>
     <script type="module">
-    + import START from 'https://cdn.jsdelivr.net/gh/MisterAvery/START@v1.0/main.js';
+      import START from 'https://cdn.jsdelivr.net/gh/MisterAvery/START@v1.0/main.js';
       START.init(500, 500);
 
       let params = {
