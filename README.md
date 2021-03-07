@@ -5,7 +5,7 @@ A library for doing mundane JavaScript tasks when working with HTML Canvas. This
 - Can be delivered from https://cdn.jsdelivr.net/gh/MisterAvery/START@v1.0/main.js
 
 ## Can be used with this HTML boiler-plate
-```diff
+```javascript
 <!DOCTYPE html>
 <html lang="en">
   <head>
