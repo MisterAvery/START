@@ -13,11 +13,10 @@ A library for doing mundane JavaScript tasks when working with HTML Canvas. This
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>test</title>
-    <script src="https://cdn.jsdelivr.net/gh/MisterAvery/START@v1.0/main.js" type="module"></script>
   </head>
   <body>
     <script type="module">
-      import START from './main.js';
+      import START from 'https://cdn.jsdelivr.net/gh/MisterAvery/START@v1.0/main.js';
       START.init(500, 500);
 
       let params = {
@@ -33,8 +32,10 @@ A library for doing mundane JavaScript tasks when working with HTML Canvas. This
     </script>
   </body>
 </html>
-
 ```
+### Notes
+- START.init takes two parameters: The width and height of the canvas that START will use
+- the "params" variable keeps track of the drawing imformation the library uses
 
 ## Currentley has Functions for:
  - Initalizing a canvas and a context for it 
