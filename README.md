@@ -1,7 +1,8 @@
 # START
 A library for doing mundane JavaScript tasks when working with HTML Canvas. This library includes functions for drawing shapes, collision detection, and useful math.
 
-## Status: in progress(Do not use)
+## Status: in progress(Useable)
+- still needs to be hosted on a CDN
 
 ## Currentley has Functions for:
  - Initalizing a canvas and a context for it 
