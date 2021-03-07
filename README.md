@@ -35,7 +35,15 @@ A library for doing mundane JavaScript tasks when working with HTML Canvas. This
 ```
 ### Notes
 - START.init takes two parameters: The width and height of the canvas that START will use
-- the "params" variable keeps track of the drawing imformation the library uses
+- the "params" variable keeps track of the drawing imformation the library uses and must be passed in at the end of each drawing method
+  - instead of passing in the params variable, an object can also be passed in
+  - ```
+    START.shapes.line(175, 200, 20, 50, {
+      fill: '#7fb8',
+      stroke: '#444',
+      strokeWidth: 2
+    })
+    ```
 
 ## Currentley has Functions for:
  - Initalizing a canvas and a context for it 
