@@ -24,7 +24,8 @@ A library for doing mundane JavaScript tasks when working with HTML Canvas. This
         stroke: '#444',
         strokeWidth: 2
       }
-
+      
+      //example of usage
       let c = START.shapes.circ(100, 95, 20, params),
           l = START.shapes.line(175, 200, 20, 50, params);
 
